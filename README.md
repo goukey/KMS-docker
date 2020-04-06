@@ -27,6 +27,6 @@
 
 ## 使用方法  只适用于VL版
 
-> slmgr /skms 192.168.1.30
+> slmgr /skms kms.19801122.xyz
 
 > slmgr /ato
