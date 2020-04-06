@@ -1,8 +1,9 @@
-version: '3'
+version: "3.7"
+
 services:
   KMS server:
     container_name: KMS server
     image: teddysun/kms:latest
     ports:
-      - '1688:1688'
+      - "1688:1688"
     restart: always
