@@ -1,15 +1,8 @@
-
-# 必须使用ssl 否则无法注册新用户 登录地址为 ip:444
-
-## 准备工作
-
-将证书文件分别改名certs.pem和key.pem 放入/etc/certs目录
-
 ## 开始使用
 
-> git clone https://github.com/goukey/Bitwarden-docker.git Bitwarden-docker
+> git clone https://github.com/goukey/KMS-docker.git KMS-docker
 
-> cd Bitwarden-docker
+> cd KMS-docker
 
 > docker-compose up -d
 
@@ -31,3 +24,9 @@
 > docker-compose up -d  #启动容器
 
 > docker image prune  #删除旧的镜像
+
+## 使用方法  只适用于VL版
+
+> slmgr /skms 192.168.1.30
+
+> slmgr /ato
