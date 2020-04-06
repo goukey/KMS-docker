@@ -1,8 +1,8 @@
 version: "3.7"
 
 services:
-  KMS server:
-    container_name: KMS server
+  KMS:
+    container_name: KMS
     image: teddysun/kms:latest
     ports:
       - "1688:1688"
