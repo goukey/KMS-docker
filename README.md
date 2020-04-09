@@ -9,11 +9,13 @@
 
 ## 关闭容器
 
+> cd KMS-docker
+
 > docker-compose down
 
 ## 升级容器
 
-> cd Bitwarden-docker
+> cd KMS-docker
 
 > docker-compose down  #停止容器
 
